@@ -8,7 +8,7 @@ const startServer = async () => {
   try {
     await mongoose.connect(DB_HOST);
     app.listen(PORT, () =>
-      console.log(`Database connection successful`)
+      console.log(`Database connection successful ${PORT}`)
     );
   } catch (e) {
     console.log(e.message);
