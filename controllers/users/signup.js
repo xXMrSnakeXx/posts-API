@@ -28,8 +28,8 @@ const signup = async (req, res) => {
     user: {
       email: result.email,
       username: result.username,
-      token: result.token,
     },
+    token: result.token,
   });
 };
 
