@@ -1,5 +1,5 @@
 {
-  "name": "miraplay_test_server",
+  "name": "posts-server",
   "version": "0.0.0",
   "private": true,
   "scripts": {
